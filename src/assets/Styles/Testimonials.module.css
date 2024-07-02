@@ -1,0 +1,17 @@
+.testy {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+    justify-content: center;
+    align-content: center;
+    overflow-x: hidden;
+  }
+  .cardImgTop {
+    height: 12rem;
+    object-fit: cover;
+    object-position: top;
+    background-position: center;
+  }
+  .card {
+    z-index: 1;
+  }
