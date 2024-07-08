@@ -8,9 +8,22 @@
     overflow-x: hidden;
 } 
 .btn1, .btn2{
-    margin: 0 10px;
+    background-color: #0c0c0c;
+    border: 1px solid;
+    color: #fff;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1rem 1rem;
 }
 
 .card{
     z-index: 1;
 }
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0 2rem 5rem;
+  }

@@ -1,3 +1,5 @@
+
+
 .testy {
     display: flex;
     flex-wrap: wrap;
@@ -14,4 +16,11 @@
   }
   .card {
     z-index: 1;
+  }
+
+  .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 0 2rem 5rem;
   }

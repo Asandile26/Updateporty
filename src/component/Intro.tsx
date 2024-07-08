@@ -1,11 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  cover from '../assets/Styles/Intro.module.css';
+import bg from '../assets/Images/Don-removebg-preview.png'
 
 const Intro: React.FC = () => {
   return (
     <div className={cover.landing}>
-      <div className={cover.wrapper}></div>
+      <div className={cover.image}>
+      <img src={bg} alt="" />
+      </div>
       <div className={cover.banner}>
         <div className={cover.line}>
           <h1>Hi, I'm Asandile Langeni</h1>

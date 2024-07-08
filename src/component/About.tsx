@@ -2,18 +2,19 @@ import {} from "react";
 import color from "../assets/Styles/About.module.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import profile from "../assets/Images/Don.jpeg"
 
 
 
 function About() {
   return (
     <div className={color.About} id={color.about}>
-      <h1>ABOUT</h1>
+      <h1 className={color.heading}>ABOUT</h1>
       <div className={color.container}>
         <div className={`${color.intro} col d-flex`}>
           <div className={color.photo}>
             <img
-              src="https://imgur.com/W5prbUo"
+              src={profile}
               alt="profile img"
               className={color.profile}
             />

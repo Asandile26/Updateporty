@@ -6,17 +6,30 @@
     z-index: 1;
   }
   
-  .photo-fluid {
+  .photo{
     float: left;
     width: 50%;
     border-radius: 20px;
     z-index: 1;
+  }
+
+  .profile{
+    padding: 0rem 1rem 0rem 1rem;
+    width: 100%;
+   
   }
   
   .text {
     float: right;
     width: 50%;
     z-index: 1;
+  }
+
+  .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 0 1rem 5rem;
   }
   
   @media (max-width: 700px) {

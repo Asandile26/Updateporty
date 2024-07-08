@@ -55,8 +55,8 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <div className={module['container-fluid']} id="contact">
-      <h1>CONTACT</h1>
+    <div className={`${module.container}'container-fluid`} id="contact">
+      <h1 className={module.heading}>CONTACT</h1>
       <div className={module.container}>
         <form className={module.form} onSubmit={handleSubmit}>
           <div className={module.contact}>
@@ -104,7 +104,7 @@ const Contact: React.FC = () => {
               />
               <label htmlFor="floatingTextarea">Comments</label>
             </div>
-            <button type="submit" className="btn btn-primary" id="con">Submit</button>
+            <button type="submit" className={module.submitBtn} id={module.con}>Submit</button>
           </div>
         </form>
       </div>

@@ -3,21 +3,43 @@
     margin: auto;
     z-index: 2;
     overflow-x: hidden;
+    padding: 5rem;
   }
   .form {
     border-style: outset;
-    padding: 4rem;
+    padding: 1rem;
     width: 100%;
     z-index: 2;
+    color: #0c0c0c;
   }
-  #icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+  .submitBtn {
+    background-color: #0c0c0c;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    z-index: 2;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    transition: color 0.8s, box-shadow 0.25s;
+    box-shadow: inset 0 0 0 0 transparent;
+    left: 8rem;
+
   }
   #inputBox input {
     z-index: 1;
   }
+  .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 0 2rem 5rem;
+  }
+
   @media screen and (max-width: 580px) {
     .form {
       width: 28rem;
@@ -39,7 +61,3 @@
     }
   }
   
-  h1 {
-    margin: 50px;
-    padding: 30px;
-  }
