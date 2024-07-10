@@ -17,7 +17,7 @@ const Intro: React.FC = () => {
           <br />
           <div className={cover.cv}>
             <a
-              href="https://drive.google.com/file/d/1okgLyTHBXDx7Ttm7ZGFA3IejG_coN4bx/view?usp=sharing"
+              href="https://drive.google.com/file/d/1_k9FNUAwzhhn-aZpsDr4MEbTfRSlVzQ5/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
